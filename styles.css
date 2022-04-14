@@ -1,0 +1,179 @@
+.flex-container1 {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(194, 194, 194);
+        align-items: flex-end;
+        
+}
+.box {
+    height: 50px;
+    width: 50px;
+    color: black;
+    padding-right: 125px;
+    line-height: 50px;
+    font-family: 'Courier New Medium';
+}
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(9, 60, 136);
+}
+.box2 {
+    height: 100px;
+    width: 100px;
+    color: white;
+}
+.flex-container3 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(68, 218, 255);
+}
+.box3 {
+    height: 175px;
+    width: 175px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    text-align: justify;
+    margin-left: 200px;
+    font-size: 50px;
+    font-family: 'Courier New Medium';
+    padding: 3rem;
+}
+.btngroup {
+    margin-left: 250px;
+    font-size: 0px;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    
+
+}
+.upcoming-button, .results-button, .home-button, .away-button {
+    background-color: rgb(212, 212, 212);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New';
+    font-size: 30px
+}
+.upcoming-button, .results-button, .home-button, .away-button {
+    border: none;
+}
+.upcoming-button:hover, .results-button:hover, .home-button:hover, .away-button:hover {
+    background-color: rgb(7, 21, 66);
+    color: white;
+    opacity: .8;
+}
+.btngroup1 {
+    margin-left: 250px;
+    display: inline;
+    
+    
+}
+.club-button, .tickets-button, .schedule-button, .roster-button, .shop-button {
+    background-color: rgb(126, 126, 126);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: 'Monaco';
+    font-size: 23px;
+    border: 2px solid black;
+}
+.club-button:hover, .tickets-button:hover, .schedule-button:hover, .roster-button:hover, .shop-button:hover {
+    background-color: rgb(7, 21, 66);
+    border: 2px solid black;
+    color: white;
+    opacity: .8;
+    font-family: 'Monaco';
+}
+
+#image1 {
+    width: 230px;
+    height: 132px;
+}
+
+h3 {
+    font-family: 'Lucida sans';
+    background-color: red;
+    margin-right: 450px;
+    margin-left: 450px;
+    color: white;
+    padding: .5rem;
+}  
+.flex-container4 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(219, 219, 219);
+    margin-left: 250px;
+    margin-right: 250px;
+    height: 75px;
+    border-bottom:1px solid rgb(9, 113, 209);
+    
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    Order: 2;
+    flex-grow: 1;
+    align-items: left;
+    text-align: left;
+    
+}
+
+.Team-Logo {
+    display: flex;
+    Order: 1;
+    width: auto;
+    float: left;
+    flex-shrink: 1;
+    justify-content: center;
+}
+.btngroup2 {
+    display: flex;
+    Order: 3;
+    align-items: center;
+    padding-right: 2rem;
+}
+.Tickets {
+    cursor: pointer;
+    color: rgb(6, 22, 53);
+    font-family: 'Courier New';
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: .25rem;
+    font-weight: bold;
+}
+.Tickets:hover {
+    background-color: rgb(7, 21, 66);
+    color: white;
+    opacity: .8;
+    border: 1px solid rgb(255, 255, 95);
+}
+.Versus {
+    font-family: 'Courier New';
+    line-height: 0;
+}
+.Dates {
+    font-family: 'Courier New';
+    line-height: 0;
+    padding-left: 7px;
+}
+.Home {
+    background-color: rgb(9, 113, 209);
+    padding: 7px;
+    color: white;
+    font-family: 'Courier New';
+}
+.away {
+    background-color: rgb(218, 0, 0);
+    padding: 7px;
+    color: white;
+    font-family: 'Courier New';
+}
+table {
+    padding: 10px;
+}
+#image2 {
+    margin-left: 800px;
+    margin-top: 50px;
+}
